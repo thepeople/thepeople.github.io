@@ -1,0 +1,24 @@
+    <!-- Other JavaScripts -->
+    <script src="{{ "/assets/js/jquery.timeago.js" | prepend: site.url }}"></script>
+
+    <!-- jQuery -->
+    <script src="{{ "/assets/js/jquery.js" | prepend: site.url }}"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{{ "/assets/js/bootstrap.min.js" | prepend: site.url }}"></script>
+
+    <!-- Morris Charts JavaScript -->
+    <script src="{{ "/assets/js/plugins/morris/raphael.min.js" | prepend: site.url }}"></script>
+    <script src="{{ "/assets/js/plugins/morris/morris.min.js" | prepend: site.url }}"></script>
+    <script src="{{ "/assets/js/plugins/morris/morris-data.js" | prepend: site.url }}"></script>
+    
+    <script>
+      {% include scripts/google-analytics.html %}
+      {% include scripts/page-effects.html %}
+      {% include scripts/sidebar.html %}
+      {% include scripts/timeago.html %}
+    </script>
+
+</body>
+
+</html>
