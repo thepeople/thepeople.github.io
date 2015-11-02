@@ -11,7 +11,7 @@ markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "tables", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
-url: http://andyljj.github.io/thepeople
+url: /
 permalink: /:year/:month/:title/
 owner:
     name: #
