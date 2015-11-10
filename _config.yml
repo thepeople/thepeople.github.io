@@ -1,7 +1,7 @@
-name: ThePeople
-description: 八一八那些名人和名组织的故事
+name: 识货吃货
+description: 进口零食控的地盘
 author: jiaj_luo
-keywords: 人类 组织 名人 故事
+keywords: 进口零食 零食 电商 识货吃货 吃货
 
 sass:
   sass_dir: assets/css/_sass
@@ -11,7 +11,8 @@ markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "tables", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
-url: http://thepeople.github.io
+url: http://andyljj.github.io/shch
+
 permalink: /:year/:month/:title/
 owner:
     name: #
