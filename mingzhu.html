@@ -1,0 +1,25 @@
+---
+layout: default
+xsqt: true
+---
+
+<div class="col-md-8">
+    {% for post in site.posts %}
+        {% if post.mz %}
+            <h2>
+                <a class="title" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
+            </h2>
+            <p><span class="glyphicon glyphicon-time meta"></span> {{ post.date | date: "%F" }}</p>
+            <p>{{post.excerpt}}</p>
+            <a  href="{{ post.url | prepend: site.url }}">Read More </a>
+
+            <hr>
+
+        {% endif %}
+   {% endfor %}
+
+</div>
+
+
+<!-- advertising board -->
+{% include adboard.html %}
